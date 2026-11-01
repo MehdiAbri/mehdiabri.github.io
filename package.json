@@ -1,0 +1,15 @@
+{
+  "name": "mehdi-abri-academic-site",
+  "version": "1.5.0",
+  "private": true,
+  "description": "Mehdi Abri’s academic website, inspired by Persian minakari.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "npm run build && npm run check && node --test tests/*.test.mjs"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "site": {
+    "title": "Mehdi Abri — Cryptography",
+    "description": "Mehdi Abri is a PhD student in cryptography in the Privacy Enhancing Technologies unit at TU Wien.",
+    "url": "",
+    "language": "en",
+    "copyrightYear": 2026,
+    "lastUpdated": "auto"
+  },
+  "profile": {
+    "name": "Mehdi Abri",
+    "role": "",
+    "institution": "",
+    "institutionUrl": "",
+    "biography": [
+      [
+        "Since November 2026, I’ve been a PhD student in TU Wien’s ",
+        {
+          "text": "Privacy Enhancing Technologies (PETs)",
+          "url": "https://pets.wien/"
+        },
+        " unit under ",
+        {
+          "text": "Dominique Schröder",
+          "url": "https://www.dominique-schroeder.de/"
+        },
+        ". I’m interested in theoretical computer science and cryptography."
+      ],
+      [
+        "Previously, I completed my bachelor’s and master’s degrees in Computer Science at the University of Isfahan. During my studies, I was fortunate to collaborate with ",
+        {
+          "text": "Jonathan Katz",
+          "url": "https://www.cs.umd.edu/~jkatz/"
+        },
+        "."
+      ]
+    ]
+  },
+  "publications": [
+    {
+      "year": 2026,
+      "title": "Shorter Hash-Based Signatures Using Forced Pruning",
+      "authors": [
+        "Mehdi Abri",
+        {
+          "name": "Jonathan Katz",
+          "url": "https://www.cs.umd.edu/~jkatz/"
+        }
+      ],
+      "venue": "CRYPTO 2026",
+      "url": "https://eprint.iacr.org/2025/2069"
+    }
+  ],
+  "honors": [
+    {
+      "year": 2026,
+      "title": "Best Master’s Thesis Award",
+      "institution": "Iranian Society of Cryptology",
+      "description": ""
+    },
+    {
+      "year": 2024,
+      "title": "Outstanding Student Award",
+      "institution": "Department of Applied Mathematics, University of Isfahan",
+      "description": ""
+    }
+  ],
+  "services": [
+    {
+      "title": "External Reviewer",
+      "description": [
+        "EUROCRYPT 2027"
+      ]
+    }
+  ],
+  "contact": {
+    "email": "mehdi.abri@tuwien.ac.at",
+    "emailPlaceholder": "",
+    "office": {
+      "institution": "TU Wien",
+      "group": "Privacy Enhancing Technologies (PETs)",
+      "address": [
+        "Vienna, Austria"
+      ]
+    },
+    "profiles": []
+  }
+}

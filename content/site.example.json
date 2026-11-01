@@ -1,0 +1,72 @@
+{
+  "site": {
+    "title": "Your Name — Cryptography",
+    "description": "Personal academic website of a first-year PhD student in cryptography at TU Wien.",
+    "url": "",
+    "language": "en",
+    "copyrightYear": 2026,
+    "lastUpdated": "auto"
+  },
+  "profile": {
+    "name": "Your Name",
+    "role": "PhD student in cryptography",
+    "institution": "TU Wien",
+    "institutionUrl": "https://www.tuwien.at/en/",
+    "biography": [
+      "I am a first-year PhD student in cryptography at TU Wien. Welcome to my personal academic website.",
+      "Use this paragraph to describe your research interests, background, or current work in your own words."
+    ]
+  },
+  "publications": [
+    {
+      "year": 2026,
+      "title": "[Publication title]",
+      "authors": [
+        "[First author]",
+        "[Your Name]",
+        "[Another author]"
+      ],
+      "venue": "[Venue or preprint status]",
+      "status": "",
+      "url": ""
+    },
+    {
+      "year": 2025,
+      "title": "[Another publication title]",
+      "authors": [
+        "[Author names]"
+      ],
+      "venue": "[Venue or preprint status]",
+      "url": ""
+    }
+  ],
+  "honors": [
+    {
+      "year": 2026,
+      "title": "[Award or honor title]",
+      "institution": "[Awarding institution]",
+      "description": "[Brief description of the recognition]"
+    }
+  ],
+  "services": [
+    {
+      "title": "[Service or academic activity]",
+      "description": [
+        "[Describe the activity and its scope.]",
+        "[Add relevant details, or remove this optional second paragraph.]"
+      ]
+    }
+  ],
+  "contact": {
+    "email": "",
+    "emailPlaceholder": "[Email address]",
+    "office": {
+      "institution": "TU Wien",
+      "group": "[Department or research group]",
+      "address": [
+        "[Office / postal address]"
+      ]
+    },
+    "profiles": []
+  }
+}
