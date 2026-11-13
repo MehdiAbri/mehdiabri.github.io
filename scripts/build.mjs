@@ -436,6 +436,7 @@ function renderDocument(page) {
     '<html lang="' + escapeHTML(content.site.language) + '">',
     '<head>',
     '<meta charset="utf-8">',
+    '<meta name="google-site-verification" content="MgWp5eLwzY3F3bA2dX6_4q-kbmlY6k93CxP8se8EPhI" />',
     '<meta name="viewport" content="width=device-width, initial-scale=1">',
     '<meta http-equiv="Content-Security-Policy" content="' + escapeHTML(csp) + '">',
     '<meta name="color-scheme" content="light">',
