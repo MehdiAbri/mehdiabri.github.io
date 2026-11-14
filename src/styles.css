@@ -374,3 +374,68 @@ button svg { flex: none; }
   .person-link, .person-link:visited { color: #000; text-decoration: none; }
   h1, h2 { break-after: avoid; }
 }
+
+/* Google Scholar link on the Publications page */
+.publications-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+}
+
+.publications-header .scholar-link {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 0.45rem;
+  min-block-size: 2.75rem;
+  color: var(--cobalt);
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.publications-header .scholar-link svg {
+  inline-size: 1.25rem;
+  block-size: 1.25rem;
+  flex: none;
+}
+
+.publications-header .scholar-link span {
+  text-decoration-line: underline;
+  text-decoration-color: rgba(23, 74, 183, 0.35);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.25em;
+}
+
+.publications-header .scholar-link:hover,
+.publications-header .scholar-link:focus-visible {
+  color: var(--focus);
+}
+
+.publications-header .scholar-link:hover span,
+.publications-header .scholar-link:focus-visible span {
+  text-decoration-color: currentColor;
+}
+
+@media screen and (max-width: 800px) {
+  .publications-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+}
+
+@media print {
+  .publications-header .scholar-link {
+    color: #000;
+  }
+
+  .publications-header .scholar-link span {
+    text-decoration: none;
+  }
+}
