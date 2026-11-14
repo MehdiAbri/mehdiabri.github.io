@@ -331,7 +331,21 @@ function renderGroups(records, kind) {
 function renderPublications(page) {
   return [
     '<div class="content-wrap">',
-    pageHeader('Publications'),
+    `<header class="page-header publications-header">
+      <h1>Publications</h1>
+      <a class="scholar-link"
+         href="https://scholar.google.com/citations?user=kA50dccAAAAJ&amp;hl=en">
+        <svg width="20" height="20" viewBox="0 0 24 24"
+             fill="none" stroke="currentColor" stroke-width="1.6"
+             stroke-linecap="round" stroke-linejoin="round"
+             aria-hidden="true" focusable="false">
+          <path d="M2 8.5 12 4l10 4.5L12 13 2 8.5Z"/>
+          <path d="M6 10.3V16c3.6 2.5 8.4 2.5 12 0v-5.7"/>
+          <path d="M22 8.5v7"/>
+        </svg>
+        <span>Google Scholar</span>
+      </a>
+    </header>`,
     renderGroups(content.publications, 'publications'),
     '</div>',
     image('publications-pattern.png', 'art art-publications', page)
